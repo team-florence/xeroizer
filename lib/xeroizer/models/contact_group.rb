@@ -12,6 +12,8 @@ module Xeroizer
       string :status
 
       has_many :contacts, :list_complete => true
+      
+      set_primary_key :contact_group_id
 
     end
 
